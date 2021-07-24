@@ -23,7 +23,7 @@ export const AddTodo = (props) => {
     <input type="text" value={title} onChange={(e)=>{setTitle(e.target.value)}} className="form-control" id="title" aria-describedby="emailHelp"/><br/>
   
   </div>
-  <div ClassName="mb-3">
+  <div className="mb-3">
     <label htmlFor="desc" className="form-label">Todo Description</label>
     <input type="text" value={desc} onChange={(e)=>{setDesc(e.target.value)}} className="form-control" id="desc"/><br />
     </div>
